@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 
+Route::livewire('/admin/quintas', 'pages::admin.quintas.index')
+    ->middleware('auth')
+    ->name('admin.quintas.index');
+
 Route::view('/', 'welcome')->name('home');
 
 Route::middleware(['auth', 'verified'])->group(function () {
