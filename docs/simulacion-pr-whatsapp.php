@@ -2,7 +2,7 @@
 
 // Simulación académica. No ejecuta el módulo real.
 
-$telefonoAdministrador = '7771234567'; 
+$telefonoAdministrador = '527771234567'; 
 // Número ficticio; pendiente de incorporar código internacional.
 
 $nombreQuinta = 'Casa Luna';
